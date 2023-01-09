@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="649.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+   <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <VBox layoutX="2.0" layoutY="3.0" prefHeight="642.0" prefWidth="148.0" style="-fx-background-color: white;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LP-PROJECT">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="50.0" prefWidth="149.0" style="-fx-background-color: white;" text="Dashboard">
+               <VBox.margin>
+                  <Insets top="150.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="50.0" prefWidth="152.0" style="-fx-background-color: white;" text="Annonces" />
+            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: white;" text="Archives" />
+            <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: white;" text="Members" />
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="173.0" style="-fx-background-color: white;" text="Setting" />
+         </children>
+      </VBox>
+      <Pane layoutX="161.0" layoutY="3.0" prefHeight="642.0" prefWidth="534.0" style="-fx-background-color: EFF3FD;">
+         <children>
+            <HBox alignment="CENTER" prefHeight="72.0" prefWidth="534.0" />
+            <HBox alignment="CENTER" layoutY="93.0" prefHeight="88.0" prefWidth="534.0">
+               <children>
+                  <HBox prefHeight="88.0" prefWidth="117.0" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <Pane layoutX="147.0" layoutY="26.0" prefHeight="616.0" prefWidth="558.0">
+         <children>
+            <VBox layoutX="11.0" layoutY="163.0" prefHeight="446.0" prefWidth="536.0" style="-fx-background-color: white;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Annonce">
+                     <VBox.margin>
+                        <Insets left="240.0" top="10.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER_LEFT" layoutX="11.0" layoutY="7.0" prefHeight="51.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue">
+                     <HBox.margin>
+                        <Insets right="200.0" />
+                     </HBox.margin>
+                  </Text>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="51.0" prefWidth="288.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="42.0" style="-fx-content-display: fa-search;">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../Desktop/lp-project/—Pngtree—vector%20notification%20icon_4187244.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Label text="Label">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../Desktop/lp-project/avatardefault_92824.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="11.0" layoutY="105.0" prefHeight="39.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #2678F3;" text="Ajouter annonce" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets left="5.0" />
+                     </opaqueInsets>
+                  </Button>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="66.0" prefWidth="374.0">
+                     <children>
+                        <TextField prefHeight="32.0" prefWidth="116.0">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <ComboBox prefHeight="30.0" prefWidth="96.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </ComboBox>
+                        <DatePicker prefHeight="31.0" prefWidth="124.0">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </DatePicker>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="42.0" style="-fx-content-display: fa-search;">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../Desktop/lp-project/Монтажная%20область%203.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

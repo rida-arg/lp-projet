@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lp-projet.jnlp">
+  <information>
+    <title>lp-projet</title>
+    <vendor>KAMUI</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lp-projet.jar" size="94207" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="lp.projet.LpProjet"  name="lp-projet" />
+  <update check="always"/>
+</jnlp>
