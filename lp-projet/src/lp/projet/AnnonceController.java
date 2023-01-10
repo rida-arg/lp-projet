@@ -23,10 +23,12 @@ import javafx.stage.Stage;
 public class AnnonceController implements Initializable {
 
     public void showAddAnnonce(ActionEvent event) throws IOException {
+        
         Parent root = FXMLLoader.load(getClass().getResource("Ajouteannonce.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
+
         stage.show();
 
     }

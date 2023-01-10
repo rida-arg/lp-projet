@@ -72,7 +72,7 @@
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../../Desktop/lp-project/—Pngtree—vector%20notification%20icon_4187244.png" />
+                                    <Image url="@../images/—Pngtree—vector%20notification%20icon_4187244.png" />
                                  </image>
                               </ImageView>
                            </graphic>
@@ -87,7 +87,7 @@
                         </Label>
                         <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../Desktop/lp-project/avatardefault_92824.png" />
+                              <Image url="@../images/avatardefault_92824.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -120,7 +120,7 @@
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../../Desktop/lp-project/Монтажная%20область%203.png" />
+                                    <Image url="@../images/Монтажная%20область%203.png" />
                                  </image>
                               </ImageView>
                            </graphic>
